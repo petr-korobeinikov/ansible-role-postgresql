@@ -14,7 +14,7 @@ Role Variables
 --------------
 
 * `postgresql_version` is a postgresql version number, e.g. `9.5`
-* `postgresql_package_version` is a exact package version, e.g. `9.5.3-1.pgdg14.04+1`
+* `postgresql_package_version` is an exact package version, e.g. `9.5.3-1.pgdg14.04+1`
 * `postgresql_hba_template` is a path to `pg_hba.conf` template within current playbook.
 * `postgresql_conf_template` is a path to `postgresql.conf` template within current playbook.
 
