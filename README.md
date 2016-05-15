@@ -28,7 +28,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-        - role: ansible-role-postgresql
+        - role: pkorobeinikov.postgresql
           postgresql_version: 9.5
           postgresql_package_version: 9.5.3-1.pgdg14.04+1
           postgresql_hba_template: postgresql/pg_hba.conf.j2
