@@ -4,6 +4,7 @@
   with_items:
     - "postgresql-{{ postgresql_version }}={{ postgresql_package_version }}"
     - "postgresql-client-{{ postgresql_version }}={{ postgresql_package_version }}"
+    - "postgresql-contrib-{{ postgresql_version }}={{ postgresql_package_version }}"
 
 - name: copy postgresql config
   template: src={{ item.src }} dest={{ item.dest }}
